@@ -34,6 +34,10 @@ class UserController extends Controller
 
 }
 
+// Discuss about form
+// GET / POST method
+// Receiving Form inputs
+
 // Build a simple route and controller to display a basic view.
 
 // The Route List
@@ -68,6 +72,8 @@ class UserController extends Controller
 // multiple user contribute in a repo
 
 // git clone
+
+// Configure database connection in Laravel
 
 //What is database migration and its use case
 
