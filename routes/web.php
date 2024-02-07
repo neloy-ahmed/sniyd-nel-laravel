@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\CustomerController;
+use App\Http\Controllers\FormController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,5 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/post/create', [PostController::class, 'create']);
-Route::post('/post', [PostController::class, 'store']);
+Route::get('user/create', [ FormController::class, 'create' ]);
+
+Route::post('user/create', [ FormController::class, 'store' ]);
