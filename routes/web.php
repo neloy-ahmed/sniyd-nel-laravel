@@ -23,3 +23,8 @@ Route::get('/', function () {
 Route::get('user/create', [ FormController::class, 'create' ]);
 
 Route::post('user/create', [ FormController::class, 'store' ]);
+
+Route::get('/send-data', function () {
+    $records = ["Hello Everyone"];
+    return view('home', compact('records'));
+});
