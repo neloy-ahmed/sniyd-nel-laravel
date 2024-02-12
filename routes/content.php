@@ -6,7 +6,7 @@
 
 <!-- Form validation -->
 
-<!-- Blade -->
+<!-- Blade  -->
 
 <!-- Displaying Data -->
 
