@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Add Company Form - Laravel 9 CRUD</title>
+    <title>Add Company Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
@@ -19,12 +19,12 @@
                 </div>
             </div>
         </div>
-        @if(session('status'))
+        {{-- @if(session('status'))
         <div class="alert alert-success mb-1 mt-1">
             {{ session('status') }}
         </div>
-        @endif
-        <form action="{{ route('companies.store') }}" method="POST" enctype="multipart/form-data">
+        @endif --}}
+        <form action="{{ route('companies.store') }}" method="POST" >
             @csrf
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">

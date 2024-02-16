@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Edit Company Form - Laravel 9 CRUD Tutorial</title>
+    <title>Edit Company Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
@@ -15,7 +15,7 @@
                     <h2>Edit Company</h2>
                 </div>
                 <div class="pull-right">
-                    <a class="btn btn-primary" href="{{ route('companies.index') }}" enctype="multipart/form-data">
+                    <a class="btn btn-primary" href="{{ route('companies.index') }}" >
                         Back</a>
                 </div>
             </div>
